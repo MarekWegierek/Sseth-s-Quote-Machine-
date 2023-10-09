@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  /*Color Scheme*/
+  --neutral-color: #1a120b;
+  --neutral-color-2: #3c2a21;
+  --primary-color: #e5e5cb;
+  --primary-color-2: #d5cea3;
+  --font-color: #fff;
+}
+
+.App {
+  background-color: var(--neutral-color-2);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
