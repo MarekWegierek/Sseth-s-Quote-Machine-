@@ -1,8 +1,14 @@
-# React + Vite
+#SSeth's Quote Machine
+##Made for FreeCodeCamp challenge below:
+https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Main goals for me:
+Finish functional app with React + Bootstrap
 
-Currently, two official plugins are available:
+###I want to learn:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Proper prop drilling (this is small project, useContext will be overkill)
+- Random generation of entries
+- Maybe a little animation here and there to avoid stale look
+- Styling and general handling CSS in React
+- Uploading page properly web for the whole world to see (netlify/github pages or something else)

@@ -5,7 +5,7 @@ export default [
     url: "https://www.youtube.com/watch?v=sw8v5__Ytf4&pp=ygUOc3NldGggaGVyb2VzIDM%3D",
     cover: "https://heroes.thelazy.net/images/0/0c/Homm_sod.jpg",
     quoteMain:
-      "Thanks to its hand sprite graphics, Heroes III aged better than most of the girls I knew from high school. Then again",
+      "Thanks to its hand sprite graphics, Heroes III aged better than most of the girls I knew from high school. Then again: ",
     quoteBold: "heroine is one hell of a drug",
   },
   {
@@ -25,7 +25,7 @@ export default [
       "https://oldgamesdownload.com/wp-content/uploads/Heroes-of-Might-and-Magic-2-1.jpg",
     quote:
       "If you want a fair and balanced strategy game, don't play it. If you want to ambush leprechauns for their lunch money, redistribute wealth to the masses (only to murder the masses later), and cheese your way to victory",
-    quoteBold: "then this is the game for you.",
+    quoteBold: "then this is the game for you",
   },
   {
     id: 4,
