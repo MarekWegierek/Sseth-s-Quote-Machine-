@@ -7,4 +7,5 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--primary-color-2);
+  opacity: 0.9;
 }

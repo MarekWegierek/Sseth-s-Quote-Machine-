@@ -1,0 +1,16 @@
+.buttons-area {
+  width: 80%;
+  height: 20%;
+  margin: 30px 10px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .btn-twitter-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-next-quote-area {
+    margin-top: -40px;
+  }
+}
