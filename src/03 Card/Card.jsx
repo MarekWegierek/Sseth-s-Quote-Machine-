@@ -1,12 +1,10 @@
-import React, { useEffect } from "react"
+import React from "react"
 import "./Card.css"
-import { useState } from "react"
-function Card(card) {
-  const [cardcon, setCard] = useState(card)
-  const { id, game, url, cover, quoteMain, quoteBold } = cardcon.card
+function Card({ card }) {
+  const { id, game, url, cover, quoteMain, quoteBold } = card
 
   return (
-    <div className="card" id={id}>
+    <div className="card" key={id}>
       <div>
         <a href={url} target="_blank">
           <img className="card-cover" src={cover}></img>

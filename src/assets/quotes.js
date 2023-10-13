@@ -94,4 +94,57 @@ export default [
       "I wanted companion that don't murder everyone. So I sprayed sentience on on a block of concrete, and 'convince' a block of animated concrete, to follow me into combat. I found out concrete is not only indestructible, but it can hold weaponry in his hands. Unfortunately, my companion died when I 'foolishly' tried to slam through concrete, using concrete. I broke a concrete wall",
     quoteBold: "I lost a concrete friend.",
   },
+  {
+    id: 12,
+    game: "Rise of Legends",
+    url: "https://www.youtube.com/watch?v=PCSWwL-f1WQ",
+    cover: "../../public/jpg/riseOfLegends.jpg",
+    quoteMain: "In this world, there are no humans.",
+    quoteBold: "Only Italians",
+  },
+  {
+    id: 13,
+    game: "Crusader Kings 2",
+    url: "https://www.youtube.com/watch?v=cE4txj_8tqA",
+    cover: "../../public/jpg/ck2.jpg",
+    quoteMain:
+      "You just paint a map with color crayons, and then upload your meme image of Holy Roman Empire onto Reddit for those sick upvotes",
+    quoteBold: "",
+  },
+  {
+    id: 14,
+    game: "Crusader Kings 2",
+    url: "https://www.youtube.com/watch?v=cE4txj_8tqA",
+    cover: "../../public/jpg/ck2.jpg",
+    quoteMain:
+      "Try hard as hard as you might, all your efforts will eventually come to ruin, you'll get cucked",
+    quoteBold: "and then you die",
+  },
+  {
+    id: 15,
+    game: "Crusader Kings 2",
+    url: "https://www.youtube.com/watch?v=cE4txj_8tqA",
+    cover: "../../public/jpg/ck2.jpg",
+    quoteMain:
+      "That's the historically accurate account of how Charlemagne took Europe.",
+    quoteBold: "By taking the Pope's ass",
+  },
+  {
+    id: 16,
+    game: "Crusader Kings 2",
+    url: "https://www.youtube.com/watch?v=cE4txj_8tqA",
+    cover: "../../public/jpg/ck2.jpg",
+    quoteMain:
+      "The Bubonic plague began to ravage Europe(...) We had another problem: food. Or rather lack of it.(...) I keep repeatedly inviting beautiful women to join my court. To be consumed by the court. Which it turned out was completely unnecessary. Apparently, Poland was not affected by the Black Plague, and I sort of freaked out an ate a lot of innocent people for absolutely no reason",
+    quoteBold: "Look, I'm not very good at this game",
+  },
+  {
+    id: 17,
+    game: "Vampire: The Masquerade Bloodlines",
+    url: "https://www.youtube.com/watch?v=ZAIR9faz9pM",
+    cover: "../../public/jpg/vampire.png",
+    quoteMain:
+      "Do you love shopping at Hot Topic? Do you hate natural sunlight?",
+    quoteBold: "Have you ever want to suck off the homeless?",
+  },
 ]

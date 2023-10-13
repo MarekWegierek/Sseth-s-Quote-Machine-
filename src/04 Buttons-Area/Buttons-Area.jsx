@@ -1,5 +1,5 @@
 import "./Buttons-Area.css"
-function ButtonsArea() {
+function ButtonsArea({ nextCard }) {
   return (
     <div className="buttons-area">
       <div className="btn-twitter-area">
@@ -18,7 +18,9 @@ function ButtonsArea() {
         <p>Share on Twitter/X</p>
       </div>
       <div className="btn-next-quote-area">
-        <button className="btn btn-secondary">Next Quote</button>
+        <button className="btn btn-secondary" onClick={() => nextCard()}>
+          Next Quote
+        </button>
       </div>
     </div>
   )
