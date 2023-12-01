@@ -5,25 +5,20 @@ import ButtonsArea from "../04 Buttons-Area/Buttons-Area"
 import quotes from "../assets/quotes"
 function Container() {
   let randomNum = Math.floor(Math.random() * quotes.length)
-  const [index, setIndex] = useState(0)
+  const [index, setIndex] = useState(2)
   const [card, setCard] = useState(quotes[index])
   const nextCard = () => {
-    /* console.log(randomNum)
-    console.log(quotes.length) */
-    if (randomNum === quotes.length - 1) {
+    if (randomNum === quotes.length) {
       setCard(quotes[randomNum - 1])
-    } else if (randomNum === index) {
-      setCard(quotes[randomNum + 1])
     } else {
       setCard(quotes[randomNum])
     }
     setIndex(randomNum)
   }
-
   return (
-    <div className="container">
+    <div className="container" id="quote-box">
       <Card card={card} />
-      <ButtonsArea nextCard={nextCard} />
+      <ButtonsArea nextCard={nextCard} card={card} />
     </div>
   )
 }
