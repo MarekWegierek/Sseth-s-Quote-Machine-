@@ -15,6 +15,7 @@ export default [
     cover: "../../public/jpg/heroes2.jpg",
     quoteMain:
       "In the campaign, you can choose between to either stand with Roland IronFist and defend his right to shit the bed, or choose to represent Archibald in his rightful condemnation of his brother scatological tendencies.",
+    quoteBold: "",
   },
   {
     id: 3,
