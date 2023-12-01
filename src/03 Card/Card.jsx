@@ -9,9 +9,13 @@ function Card({ card }) {
         <a href={url} target="_blank">
           <img className="card-cover" src={cover}></img>
         </a>
-        <h4 className="card-game">{game}</h4>
+        <h4 className="card-game" id="author">
+          {game}
+        </h4>
       </div>
-      <p className="quoteMain">{quoteMain}</p>
+      <p className="quoteMain" id="text">
+        {quoteMain}
+      </p>
       <h5 className="quoteBold">{quoteBold}</h5>
     </div>
   )
