@@ -10,21 +10,19 @@ nav {
   top: 1%;
   left: 5%;
   right: 5%;
-
-  h3 {
-    font-size: 1.5rem;
-    align-self: center;
-    margin-left: 5px;
-    color: var(--primary-color);
-  }
-  p {
-    margin-top: 20px;
-    margin-right: 5px;
-    align-content: flex-end;
-    color: var(--primary-color);
-
-    a {
-      color: var(--primary-color);
-    }
-  }
+}
+nav > h3 {
+  font-size: 1.5rem;
+  align-self: center;
+  margin-left: 5px;
+  color: var(--primary-color);
+}
+nav > p {
+  margin-top: 20px;
+  margin-right: 5px;
+  align-content: flex-end;
+  color: var(--primary-color);
+}
+nav > p > a {
+  color: var(--primary-color);
 }
